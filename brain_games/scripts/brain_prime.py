@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import random
 import prompt
+import random
 
 
 def main():
@@ -16,33 +16,34 @@ def welcome_user():
 
 
 def get_game(name):
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
     for t in range(3):
-        number = random.randint(0, 100)
-        correct = is_correct_answer(number)
-        print(f'Question: {number}')
+        print('Answer "yes" if given number is prime. Otherwise answer "no".')
+        number = random.randint(1, 100)
+        print(f'Question: ' + str(number))
         answer = prompt.string('Your answer: ')
-        if answer == correct:
+        if answer == correct_answer(number):
             print('Correct!')
         else:
-            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct}\'.')
+            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer(number)}\'.')
             print(f'Let\'s try again, {name}!')
             break
 
 
-def is_correct_answer(number):
-    if is_even(number):
+def correct_answer(number):
+    if is_prime(number):
         return 'yes'
-    if not is_even(number):
+    else:
         return 'no'
 
 
-def is_even(number):
-    if number % 2 == 0:
-        return True
+def is_prime(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return False
+        else:
+            continue
     else:
-        return False
+        return True
 
 
 if __name__ == '__main__':

@@ -10,10 +10,12 @@ def main():
     name = welcome_user()
     get_game(name)
 
+
 def welcome_user():
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     return name
+
 
 def get_game(name):
     print('What is the result of the expression?')
@@ -28,13 +30,12 @@ def get_game(name):
         if not re.match(r"^\d+$", answer):
             print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
             break
-        if (int(answer) == correct_answer): 
+        if (int(answer) == correct_answer):
             print('Correct!')
         else:
             print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
             print(f'Let\'s try again, {name}!')
             break
-
 
 
 def calculate_expression(num_1, num_2, op):
@@ -44,7 +45,7 @@ def calculate_expression(num_1, num_2, op):
         return add(num_1, num_2)
     elif op == '*':
         return mul(num_1, num_2)
-    
+
 
 if __name__ == '__main__':
     main()

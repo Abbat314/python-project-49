@@ -33,7 +33,7 @@ def get_game(name):
         if not re.match(r"^\d+$", answer):
             print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
             break
-        if (int(answer) == correct_answer): 
+        if int(answer) == correct_answer:
             print('Correct!')
             if t == 2:
                 print(f'Congratulations, ' + name + '!')

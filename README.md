@@ -8,3 +8,13 @@
 
 ##### asciinema.org - brain-calc
 [![asciicast](https://asciinema.org/a/l7HkMazs6xRBweahLvUEQDmmM.png)](https://asciinema.org/a/l7HkMazs6xRBweahLvUEQDmmM)
+
+##### asciinema.org - brain-gcd
+[![asciicast](https://asciinema.org/a/jGx2C1Nl7UeUX6uBtTsrfLsoC.png)](https://asciinema.org/a/jGx2C1Nl7UeUX6uBtTsrfLsoC)
+
+##### asciinema.org - brain-prime
+[![asciicast](https://asciinema.org/a/7NA0uJi8D4NXDbPpTvl6TgBOj.png)](https://asciinema.org/a/7NA0uJi8D4NXDbPpTvl6TgBOj)
+
+##### asciinema.org - brain-progression
+[![asciicast](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba.png)](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba)
+
