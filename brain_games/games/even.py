@@ -5,14 +5,11 @@ GAME_RULE = 'Answer "yes" if the number is even, ' \
             'otherwise answer "no".'
 
 
-def get_game():
+def get_question_and_right_answer():
     number = random.randint(0, 100)
-    if is_even(number):
-        correct_answer = 'yes'
-        return str(number), correct_answer
-    else:
-        correct_answer = 'no'
-        return str(number), correct_answer
+    correct_answer = 'yes' if is_even(number) else 'no'
+    return str(number), correct_answer
+
 
 
 def is_even(number):

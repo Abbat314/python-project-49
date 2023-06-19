@@ -5,7 +5,7 @@ GAME_RULE = 'What number is missing ' \
             'in the progression?'
 
 
-def get_game():
+def get_question_and_right_answer():
     progression = generation_progression()
     index_cut_number = random.choice(range(0, 10))
     correct_answer = progression[index_cut_number]
