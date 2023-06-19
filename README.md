@@ -18,3 +18,8 @@
 ##### asciinema.org - brain-progression
 [![asciicast](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba.png)](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba)
 
+Python 3.10 Poetry 1.4.2
+
+Brain games are about counting numbers: if numbers even, count expression, what is the greatest common divisor and others.
+
+For installation: 'make install', 'make build', 'make package-install'.
