@@ -8,7 +8,7 @@ def start_game(game):
     print(game.GAME_RULE)
     counter = 0
     while counter < 3:
-        question, correct_answer = game.get_game()
+        question, correct_answer = game.get_question_and_right_answer()
         print('Question: ' + question)
         user_answer = prompt.string('Your answer: ')
         if str(correct_answer) == str(user_answer):
