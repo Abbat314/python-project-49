@@ -3,6 +3,12 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f7e220f77b852c2b831d/maintainability)](https://codeclimate.com/github/Abbat314/python-project-49/maintainability)
 
+Python 3.10 Poetry 1.4.2
+
+Brain games are about counting numbers: if numbers even, count expression, what is the greatest common divisor and others.
+
+For installation: 'make install', 'make build', 'make package-install'.
+
 ##### asciinema.org - brain-even
 [![asciicast](https://asciinema.org/a/4Gi3AyFK6aty73Vsk1EbkrLlT.png)](https://asciinema.org/a/4Gi3AyFK6aty73Vsk1EbkrLlT)
 
@@ -17,9 +23,3 @@
 
 ##### asciinema.org - brain-progression
 [![asciicast](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba.png)](https://asciinema.org/a/IzswL1vEz4ZLTrFYfvzfMFxba)
-
-Python 3.10 Poetry 1.4.2
-
-Brain games are about counting numbers: if numbers even, count expression, what is the greatest common divisor and others.
-
-For installation: 'make install', 'make build', 'make package-install'.
