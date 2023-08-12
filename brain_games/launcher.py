@@ -1,13 +1,16 @@
 import prompt
 
 
+TRIES = 3
+
+
 def start_game(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     print(game.GAME_RULE)
     counter = 0
-    while counter < 3:
+    while counter < TRIES:
         question, correct_answer = game.get_question_and_right_answer()
         print('Question: ' + question)
         user_answer = prompt.string('Your answer: ')

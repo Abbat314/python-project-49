@@ -11,7 +11,6 @@ def get_question_and_right_answer():
     return str(number), correct_answer
 
 
-
 def is_even(number):
     if number % 2 == 0:
         return True
